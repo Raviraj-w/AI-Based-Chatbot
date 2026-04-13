@@ -1,0 +1,98 @@
+/* Signup.css - Exactly matches Login.css for consistency */
+
+.auth-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.premium-card {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 50px 45px;
+    border-radius: 40px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.05);
+    width: 420px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.bot-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    border-radius: 25px;
+    margin: 0 auto 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 40px rgba(79, 70, 229, 0.3);
+}
+
+.header-text h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -1px;
+}
+
+.modern-form { margin-top: 30px; text-align: left; }
+
+.input-field { margin-bottom: 18px; }
+
+.input-field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 6px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 14px 18px;
+    background: rgba(243, 244, 246, 0.6);
+    border: 1.5px solid #f3f4f6;
+    border-radius: 16px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.input-field input:focus {
+    outline: none;
+    background: #fff;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.1);
+}
+
+.glow-button {
+    width: 100%;
+    padding: 16px;
+    background: #111827;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.glow-button:hover {
+    background: #1f2937;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.auth-footer span {
+    color: #4f46e5;
+    font-weight: 700;
+    cursor: pointer;
+}

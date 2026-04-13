@@ -1,0 +1,123 @@
+/* Login.css - High-End Premium Style */
+
+.auth-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.premium-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 60px 45px;
+    border-radius: 40px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.05), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    width: 420px;
+    text-align: center;
+    transform: rotateX(2deg);
+    transition: all 0.4s ease;
+}
+
+.premium-card:hover {
+    transform: rotateX(0deg) translateY(-10px);
+    box-shadow: 0 50px 100px rgba(99, 102, 241, 0.1);
+}
+
+.bot-icon-container {
+    margin-bottom: 30px;
+}
+
+.bot-icon {
+    width: 85px;
+    height: 85px;
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 40px rgba(79, 70, 229, 0.3);
+}
+
+.header-text h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -1px;
+}
+
+.header-text p {
+    color: #6b7280;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.modern-form {
+    margin-top: 35px;
+    text-align: left;
+}
+
+.input-field {
+    margin-bottom: 22px;
+}
+
+.input-field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 16px 20px;
+    background: rgba(243, 244, 246, 0.5);
+    border: 1.5px solid #f3f4f6;
+    border-radius: 18px;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.input-field input:focus {
+    outline: none;
+    background: #fff;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.1);
+}
+
+.glow-button {
+    width: 100%;
+    padding: 16px;
+    background: #111827;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.glow-button:hover {
+    background: #1f2937;
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.auth-footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.auth-footer span {
+    color: #4f46e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 5px;
+}
